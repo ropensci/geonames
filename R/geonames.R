@@ -32,8 +32,6 @@ getJson=function(name,plist){
 #
 # call a geonames JSON service with named args from plist
 #
-  require(rjson)
-  require(utils)
   url=paste("http://",options()$geonamesHost,"/",name,"?",sep="")
   if(!is.null(options()$geonamesUsername)){
     plist[["username"]]=options()$geonamesUsername
