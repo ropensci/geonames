@@ -1,7 +1,7 @@
 Package: geonames
 Type: Package
 Title: Interface to www.geonames.org web service
-Version: 0.99
+Version: 0.995
 Date: 2011-24-11
 Author: Barry Rowlingson
 Maintainer: Barry Rowlingson <b.rowlingson@gmail.com>
