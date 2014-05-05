@@ -45,7 +45,7 @@ getJson=function(name,plist){
   u=url(url,open="r")
   d=readLines(u,warn=FALSE)
   close(u)
-  data = fromJSON(d)
+  data = rjson::fromJSON(d)
   if(length(data$status)>0){
     stop(paste("error code ",data$status$value," from server: ",data$status$message,sep=""))
   }
