@@ -24,6 +24,8 @@ country code and admin subdivision
 }
 \details{
 looks up country and admin subdivisions
+
+API doc for GNcountrySubdivision is at \url{http://www.geonames.org/export/web-services.html#countrysubdiv}
 }
 \author{
 Barry Rowlingson

@@ -6,6 +6,9 @@
 ##' height from topo30
 ##'
 ##' get height from topo30 data
+##' 
+##' API doc for GNgtopo30 is at \url{http://www.geonames.org/export/web-services.html#gtopo30}
+##'
 ##' @title topo30 height
 ##' @param lat latitude
 ##' @param lng longitude
@@ -19,6 +22,9 @@ GNgtopo30=function(lat,lng){
 ##' height from srtm3 data
 ##'
 ##' get srtm3 height
+##' 
+##' API doc for GNsrtm3 is at \url{http://www.geonames.org/export/web-services.html#srtm3}
+##' 
 ##' @title srtm3 height
 ##' @param lat latitude
 ##' @param lng longitude

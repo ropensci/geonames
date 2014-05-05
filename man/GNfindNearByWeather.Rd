@@ -18,6 +18,8 @@ get weather at location
 }
 \details{
 get weather
+
+API doc for GNfindNearByWeather is at \url{http://www.geonames.org/export/JSON-webservices.html#findNearByWeatherJSON}
 }
 \note{
 check capitalisation of 'NearBy'

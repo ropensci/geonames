@@ -18,6 +18,8 @@ Get country info
 }
 \details{
 country info
+
+API doc for GNcountryInfo is at \url{http://www.geonames.org/export/web-services.html#countryInfo}
 }
 \author{
 Barry Rowlingson

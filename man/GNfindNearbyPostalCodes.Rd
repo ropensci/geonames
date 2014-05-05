@@ -16,6 +16,8 @@ find postal code by lat long or code
 }
 \details{
 find postal code
+
+API doc for GNfindNearbyPostalCodes is at \url{http://www.geonames.org/export/web-services.html#findNearbyPostalCodes}
 }
 \author{
 Barry Rowlingson

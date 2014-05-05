@@ -13,6 +13,8 @@ countries with postal code info
 }
 \details{
 list countries with postal code info
+
+API doc for GNpostalCodeCountryInfo is at \url{http://www.geonames.org/export/web-services.html#postalCodeCountryInfo}
 }
 \author{
 Barry Rowlingson

@@ -6,6 +6,9 @@
 ##' search geonames
 ##'
 ##' general search call
+##' 
+##' API doc for GNsearch is at \url{http://www.geonames.org/export/geonames-search.html}
+##' 
 ##' @title search geonames
 ##' @param ... search parameters
 ##' @return matched records
@@ -18,6 +21,9 @@ GNsearch=function(...){
 ##' find neighbourhood
 ##'
 ##' find neighbourhood
+##' 
+##' API doc for GNneighbourhood is at \url{http://www.geonames.org/export/web-services.html#neighbourhood}
+##' 
 ##' @title neighbourhood
 ##' @param lat latitude
 ##' @param lng longitude
@@ -32,6 +38,9 @@ GNneighbourhood=function(lat,lng){
 ##' find nearby entities
 ##'
 ##' nearby search 
+##' 
+##' API doc for GNfindNearby is at \url{http://www.geonames.org/export/web-services.html#findNearby}
+##' 
 ##' @title nearby search
 ##' @param ... search parameters
 ##' @return matched records
@@ -45,6 +54,9 @@ GNfindNearby=function(...){
 ##' find nearby populated place
 ##'
 ##' search for populated places
+##' 
+##' API doc for GNfindNearbyPlaceName is at \url{http://www.geonames.org/export/web-services.html#findNearbyPlaceName}
+##' 
 ##' @title populated place search
 ##' @param lat latitude
 ##' @param lng longitude
@@ -61,6 +73,9 @@ GNfindNearbyPlaceName=function(lat,lng,radius="",maxRows="10",style="MEDIUM"){
 ##' find nearby streets (US only)
 ##'
 ##' for a lat-long, find nearby US streets
+##' 
+##' API doc for GNfindNearbyStreets is at \url{http://www.geonames.org/maps/us-reverse-geocoder.html#findNearbyStreets}
+##' 
 ##' @title nearby street finding
 ##' @param lat latitude
 ##' @param lng longitude
@@ -74,6 +89,9 @@ GNfindNearbyStreets=function(lat,lng){
 ##' find nearest street and address
 ##'
 ##' search US for nearest street and address
+##' 
+##' API doc for GNfindNearestAddress is at \url{http://www.geonames.org/maps/us-reverse-geocoder.html#findNearestAddress}
+##' 
 ##' @title nearest address
 ##' @param lat latitude
 ##' @param lng longitude
@@ -87,6 +105,9 @@ GNfindNearestAddress=function(lat,lng){
 ##' search US for nearest intersection
 ##'
 ##' finds nearest intersection
+##'
+##' API doc for GNfindNearestIntersection is at \url{http://www.geonames.org/maps/us-reverse-geocoder.html#findNearestIntersection}
+##' 
 ##' @title nearest intersection 
 ##' @param lat latitude
 ##' @param lng longitude

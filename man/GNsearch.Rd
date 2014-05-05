@@ -16,6 +16,8 @@ search geonames
 }
 \details{
 general search call
+
+API doc for GNsearch is at \url{http://www.geonames.org/export/geonames-search.html}
 }
 \author{
 Barry Rowlingson

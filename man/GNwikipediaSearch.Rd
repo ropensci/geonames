@@ -18,6 +18,8 @@ wikipedia fulltext search
 }
 \details{
 find geolocated articles in wikipedia
+
+API doc for GNwikipediaSearch is at \url{http://www.geonames.org/export/wikipedia-webservice.html#wikipediaSearch}
 }
 \author{
 Barry Rowlingson

@@ -16,6 +16,8 @@ find nearby entities
 }
 \details{
 nearby search
+
+API doc for GNfindNearby is at \url{http://www.geonames.org/export/web-services.html#findNearby}
 }
 \author{
 Barry Rowlingson

@@ -16,6 +16,8 @@ find nearby wikipedia entries
 }
 \details{
 search wikipedia entries by lat/lng or location name parameters
+
+API doc for GNfindNearbyWikipedia is at \url{http://www.geonames.org/export/wikipedia-webservice.html#findNearbyWikipedia}
 }
 \author{
 Barry Rowlingson

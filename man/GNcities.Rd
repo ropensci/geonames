@@ -26,6 +26,8 @@ Search for cities
 }
 \details{
 find cities
+
+API doc for GNcities is at \url{http://www.geonames.org/export/JSON-webservices.html#citiesJSON}
 }
 \author{
 Barry Rowlingson

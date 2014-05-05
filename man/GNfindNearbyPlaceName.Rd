@@ -25,6 +25,8 @@ find nearby populated place
 }
 \details{
 search for populated places
+
+API doc for GNfindNearbyPlaceName is at \url{http://www.geonames.org/export/web-services.html#findNearbyPlaceName}
 }
 \author{
 Barry Rowlingson

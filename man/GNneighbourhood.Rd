@@ -18,6 +18,8 @@ find neighbourhood
 }
 \details{
 find neighbourhood
+
+API doc for GNneighbourhood is at \url{http://www.geonames.org/export/web-services.html#neighbourhood}
 }
 \author{
 Barry Rowlingson

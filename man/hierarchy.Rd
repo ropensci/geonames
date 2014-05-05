@@ -24,4 +24,13 @@ GNneighbours(geonameId, ...)
 See \url{http://www.geonames.org/export/ws-overview.html}
 for a full description of valid arguments and return values
 }
+\details{
+API doc for GNchildren is at \url{http://www.geonames.org/export/place-hierarchy.html#children}
+
+API doc for GNhierarchy is at \url{http://www.geonames.org/export/place-hierarchy.html#hierarchy}
+
+API doc for GNsiblings is at \url{http://www.geonames.org/export/place-hierarchy.html#siblings}
+
+API doc for GNneighbours is at \url{http://www.geonames.org/export/place-hierarchy.html#neighbours}
+}
 

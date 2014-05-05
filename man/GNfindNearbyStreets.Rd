@@ -18,6 +18,8 @@ find nearby streets (US only)
 }
 \details{
 for a lat-long, find nearby US streets
+
+API doc for GNfindNearbyStreets is at \url{http://www.geonames.org/maps/us-reverse-geocoder.html#findNearbyStreets}
 }
 \author{
 Barry Rowlingson

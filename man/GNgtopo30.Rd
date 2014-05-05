@@ -18,6 +18,8 @@ height from topo30
 }
 \details{
 get height from topo30 data
+
+API doc for GNgtopo30 is at \url{http://www.geonames.org/export/web-services.html#gtopo30}
 }
 \author{
 Barry Rowlingson

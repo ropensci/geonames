@@ -18,6 +18,8 @@ search US for nearest intersection
 }
 \details{
 finds nearest intersection
+
+API doc for GNfindNearestIntersection is at \url{http://www.geonames.org/maps/us-reverse-geocoder.html#findNearestIntersection}
 }
 \author{
 Barry Rowlingson

@@ -28,6 +28,8 @@ recent earthquakes
 }
 \details{
 get recent earthquakes in a region
+
+API doc for GNearthquakes is at \url{http://www.geonames.org/export/JSON-webservices.html#earthquakesJSON}
 }
 \author{
 Barry Rowlingson

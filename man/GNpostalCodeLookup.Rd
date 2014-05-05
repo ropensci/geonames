@@ -16,6 +16,8 @@ postal code lookup
 }
 \details{
 postal code lookup
+
+API doc for GNpostalCodeLookup is at \url{http://www.geonames.org/export/web-services.html#postalCodeLookupJSON}
 }
 \author{
 Barry Rowlingson

@@ -5,6 +5,9 @@
 ##' Get country code
 ##'
 ##' country code for location
+##' 
+##' API doc for GNcountryCode is at \url{http://www.geonames.org/export/web-services.html#countrycode}
+##' 
 ##' @title country code for location
 ##' @param lat latitude
 ##' @param lng longitude
@@ -21,6 +24,9 @@ GNcountryCode=function(lat,lng,lang="",radius=""){
 ##' Get country info
 ##'
 ##' country info
+##'
+##' API doc for GNcountryInfo is at \url{http://www.geonames.org/export/web-services.html#countryInfo}
+##' 
 ##' @title country info
 ##' @param country country code
 ##' @param lang language code
@@ -35,6 +41,9 @@ GNcountryInfo=function(country="",lang=""){
 ##' Search for cities
 ##'
 ##' find cities
+##' 
+##' API doc for GNcities is at \url{http://www.geonames.org/export/JSON-webservices.html#citiesJSON}
+##' 
 ##' @title find cities
 ##' @param north north bound
 ##' @param east east bound
@@ -52,6 +61,9 @@ GNcities=function(north,east,south,west,lang="en",maxRows=10){
 ##' get timezone
 ##'
 ##' timezone for location
+##' 
+##' API doc for GNtimezone is at \url{http://www.geonames.org/export/web-services.html#timezone}
+##' 
 ##' @title timezone for location
 ##' @param lat latitude
 ##' @param lng longitude
@@ -66,6 +78,9 @@ GNtimezone=function(lat,lng, radius=0){
 ##' country code and admin subdivision
 ##'
 ##' looks up country and admin subdivisions
+##' 
+##' API doc for GNcountrySubdivision is at \url{http://www.geonames.org/export/web-services.html#countrysubdiv}
+##' 
 ##' @title country code and subdivision
 ##' @param lat latitude
 ##' @param lng longitude

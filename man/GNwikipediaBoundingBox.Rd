@@ -16,6 +16,8 @@ wikipedia articles in bounding box
 }
 \details{
 find articles in a box
+
+API doc for GNwikipediaBoundingBox is at \url{http://www.geonames.org/export/wikipedia-webservice.html#wikipediaBoundingBox}
 }
 \author{
 Barry Rowlingson

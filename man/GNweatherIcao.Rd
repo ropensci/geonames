@@ -16,6 +16,8 @@ weather record from ICAO station
 }
 \details{
 get most recent ICAO station data
+
+API doc for GNweatherIcao is at \url{http://www.geonames.org/export/JSON-webservices.html#weatherIcaoJSON}
 }
 \author{
 Barry Rowlingson

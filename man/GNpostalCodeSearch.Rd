@@ -16,6 +16,8 @@ search for postal code
 }
 \details{
 full text search for postal codes
+
+API doc for GNpostalCodeSearch is at \url{http://www.geonames.org/export/web-services.html#postalCodeSearch}
 }
 \author{
 Barry Rowlingson

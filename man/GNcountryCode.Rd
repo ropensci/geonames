@@ -22,6 +22,8 @@ Get country code
 }
 \details{
 country code for location
+
+API doc for GNcountryCode is at \url{http://www.geonames.org/export/web-services.html#countrycode}
 }
 \author{
 Barry Rowlingson

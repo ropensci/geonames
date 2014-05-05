@@ -20,6 +20,8 @@ get timezone
 }
 \details{
 timezone for location
+
+API doc for GNtimezone is at \url{http://www.geonames.org/export/web-services.html#timezone}
 }
 \author{
 Barry Rowlingson

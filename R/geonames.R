@@ -14,6 +14,19 @@
 ##     You should have received a copy of the GNU General Public License
 ##     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+#' Query the geonames web API for geographic data
+#'
+#' www.geonames.org is a service where you can query for global geographic
+#' data such as administrative areas, populated places, weather data etc.
+#'
+#' The functions in this package are mostly thin wrappers to the API
+#' calls documented at the geonames web services
+#' overview \url{http://www.geonames.org/export/ws-overview.html}.
+#'
+#' @docType package
+#' @name geonames
+NULL
+
 .onLoad = function(libname,pkgname){
   ## sometimes they take this down and change it...
   if(is.null(options()$geonamesHost)){

@@ -6,6 +6,9 @@
 ##' get weather at location
 ##'
 ##' get weather
+##' 
+##' API doc for GNfindNearByWeather is at \url{http://www.geonames.org/export/JSON-webservices.html#findNearByWeatherJSON}
+##' 
 ##' @title weather at location
 ##' @param lat latitude
 ##' @param lng longitude
@@ -36,6 +39,9 @@ GNweather=function(north,east,south,west,maxRows=10){
 ##' weather record from ICAO station
 ##'
 ##' get most recent ICAO station data
+##' 
+##' API doc for GNweatherIcao is at \url{http://www.geonames.org/export/JSON-webservices.html#weatherIcaoJSON}
+##' 
 ##' @title ICAO weather station data
 ##' @param ICAO ICAO code
 ##' @return weather record
@@ -48,6 +54,9 @@ GNweatherIcao=function(ICAO){
 ##' recent earthquakes
 ##'
 ##' get recent earthquakes in a region
+##'
+##' API doc for GNearthquakes is at \url{http://www.geonames.org/export/JSON-webservices.html#earthquakesJSON}
+##' 
 ##' @title recent earthquakes
 ##' @param north  north bound
 ##' @param east east bound

@@ -18,6 +18,8 @@ find nearest street and address
 }
 \details{
 search US for nearest street and address
+
+API doc for GNfindNearestAddress is at \url{http://www.geonames.org/maps/us-reverse-geocoder.html#findNearestAddress}
 }
 \author{
 Barry Rowlingson
