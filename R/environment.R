@@ -13,6 +13,10 @@
 ##' @param lat latitude
 ##' @param lng longitude
 ##' @return weather record
+##' @examples
+##' \dontrun{
+##' GNfindNearByWeather(57,-2)
+##' }
 ##' @export
 ##' @note check capitalisation of 'NearBy'
 ##' @author Barry Rowlingson
@@ -66,6 +70,10 @@ GNweatherIcao=function(ICAO){
 ##' @param minMagnitude optional minimal magnitude
 ##' @param maxRows max records to return
 ##' @return earthquake records
+##' @examples
+##' \dontrun{
+##' GNearthquakes(north=44.1,south=-9.9,east=-22.4,west=55.2)
+##' }
 ##' @export
 ##' @author Barry Rowlingson
 GNearthquakes=function(north,east,south,west,date,minMagnitude,maxRows=10){

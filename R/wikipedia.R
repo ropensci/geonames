@@ -43,6 +43,10 @@ GNwikipediaBoundingBox=function(...){
 ##' @param q search string
 ##' @param maxRows maximum returned records
 ##' @return wikipedia entries
+##' @examples
+##' \dontrun{
+##' GNwikipediaSearch("london")
+##' }
 ##' @export
 ##' @author Barry Rowlingson
 GNwikipediaSearch=function(q,maxRows=10){
