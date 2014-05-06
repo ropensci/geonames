@@ -24,6 +24,11 @@ API doc for GNfindNearByWeather is at \url{http://www.geonames.org/export/JSON-w
 \note{
 check capitalisation of 'NearBy'
 }
+\examples{
+\dontrun{
+GNfindNearByWeather(57,-2)
+}
+}
 \author{
 Barry Rowlingson
 }

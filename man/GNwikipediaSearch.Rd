@@ -21,6 +21,11 @@ find geolocated articles in wikipedia
 
 API doc for GNwikipediaSearch is at \url{http://www.geonames.org/export/wikipedia-webservice.html#wikipediaSearch}
 }
+\examples{
+\dontrun{
+GNwikipediaSearch("london")
+}
+}
 \author{
 Barry Rowlingson
 }

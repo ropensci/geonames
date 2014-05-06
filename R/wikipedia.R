@@ -11,6 +11,10 @@
 ##' @title nearby wikipedia entries
 ##' @param ... see geonames.org documentation
 ##' @return wikipedia entries
+##' @examples
+##' \dontrun{
+##' GNfindNearbyWikipedia(postalcode=8775,country="CH",radius=10)
+##' }
 ##' @export
 ##' @author Barry Rowlingson
 GNfindNearbyWikipedia=function(...){
@@ -26,6 +30,10 @@ GNfindNearbyWikipedia=function(...){
 ##' @title wikipedia articles in a box
 ##' @param ... parameters (north, south, east, west etc.)
 ##' @return wikipedia records
+##' @examples
+##' \dontrun{
+##' GNwikipediaBoundingBox(north=44.1,south=-9.9,east=-22.4,west=55.2)
+##' }
 ##' @export
 ##' @author Barry Rowlingson
 GNwikipediaBoundingBox=function(...){

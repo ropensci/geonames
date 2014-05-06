@@ -31,6 +31,11 @@ get recent earthquakes in a region
 
 API doc for GNearthquakes is at \url{http://www.geonames.org/export/JSON-webservices.html#earthquakesJSON}
 }
+\examples{
+\dontrun{
+GNearthquakes(north=44.1,south=-9.9,east=-22.4,west=55.2)
+}
+}
 \author{
 Barry Rowlingson
 }

@@ -19,6 +19,11 @@ find articles in a box
 
 API doc for GNwikipediaBoundingBox is at \url{http://www.geonames.org/export/wikipedia-webservice.html#wikipediaBoundingBox}
 }
+\examples{
+\dontrun{
+GNwikipediaBoundingBox(north=44.1,south=-9.9,east=-22.4,west=55.2)
+}
+}
 \author{
 Barry Rowlingson
 }

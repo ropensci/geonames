@@ -21,7 +21,7 @@ API doc for GNfindNearbyWikipedia is at \url{http://www.geonames.org/export/wiki
 }
 \examples{
 \dontrun{
-GNwikipediaSearch("london")
+GNfindNearbyWikipedia(postalcode=8775,country="CH",radius=10)
 }
 }
 \author{

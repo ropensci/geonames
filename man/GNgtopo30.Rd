@@ -21,6 +21,11 @@ get height from topo30 data
 
 API doc for GNgtopo30 is at \url{http://www.geonames.org/export/web-services.html#gtopo30}
 }
+\examples{
+\dontrun{
+GNgtopo30(lat=54,lng=-1)
+}
+}
 \author{
 Barry Rowlingson
 }

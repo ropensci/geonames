@@ -21,6 +21,11 @@ get srtm3 height
 
 API doc for GNsrtm3 is at \url{http://www.geonames.org/export/web-services.html#srtm3}
 }
+\examples{
+\dontrun{
+GNsrtm3(lat=54,lng=-1)
+}
+}
 \author{
 Barry Rowlingson
 }

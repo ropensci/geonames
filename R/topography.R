@@ -13,6 +13,10 @@
 ##' @param lat latitude
 ##' @param lng longitude
 ##' @return height record
+##' @examples
+##' \dontrun{
+##' GNgtopo30(lat=54,lng=-1)
+##' }
 ##' @export
 ##' @author Barry Rowlingson
 GNgtopo30=function(lat,lng){
@@ -29,6 +33,10 @@ GNgtopo30=function(lat,lng){
 ##' @param lat latitude
 ##' @param lng longitude
 ##' @return height record
+##' @examples
+##' \dontrun{
+##' GNsrtm3(lat=54,lng=-1)
+##' }
 ##' @export
 ##' @author Barry Rowlingson
 GNsrtm3=function(lat,lng){
