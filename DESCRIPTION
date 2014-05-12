@@ -12,4 +12,4 @@ Imports:
 Description: Code for querying the web service at www.geonames.org
 License: GPL-3
 LazyLoad: yes
-BugReports: https://github.com/barryrowlingson/geonames/issues
+BugReports: https://github.com/ropensci/geonames/issues
