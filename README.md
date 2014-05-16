@@ -11,3 +11,5 @@ Install from here using `devtools`:
  * `install_github("geonames","barryrowlingson")`
 
 A version of this will be pushed to CRAN.
+
+[![](http://ropensci.org/public_images/github_footer.png)](http://ropensci.org)
