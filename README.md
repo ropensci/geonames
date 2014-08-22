@@ -1,6 +1,9 @@
 geonames
 ========
 
+[![Build Status](https://api.travis-ci.org/ropensci/geonames.png)](https://travis-ci.org/ropensci/geonames)
+[![Build status](https://ci.appveyor.com/api/projects/status/20c287nl3tc7lnan/branch/master)](https://ci.appveyor.com/project/sckott/geonames/branch/master)
+
 R package for accessing the geonames.org API
 
 Install from here using `devtools`:
