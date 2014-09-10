@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ropensci/geonames.png?branch=master)](https://travis-ci.org/ropensci/geonames)
+
 geonames
 ========
 
