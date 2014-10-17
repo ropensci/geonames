@@ -32,7 +32,7 @@
 #' @name geonames
 NULL
 
-.onLoad = function(libname,pkgname){
+.onAttach = function(libname,pkgname){
   ## sometimes they take this down and change it...
   if(is.null(getOption("geonamesHost"))){
     options(geonamesHost="ws.geonames.org")
