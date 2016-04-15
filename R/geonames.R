@@ -56,7 +56,7 @@ getJson=function(name,plist){
   }
   olist = list()
   for(p in 1:length(plist)){
-    olist[[p]]=paste(names(plist)[p],"=",URLencode(as.character(plist[[p]])),sep="")
+    olist[[p]]=paste(names(plist)[p],"=",URLencode(as.character(plist[[p]]),reserved=TRUE),sep="")
   }
   pstring=paste(unlist(olist),collapse="&")
   url=paste(url,pstring,sep='')  
