@@ -35,7 +35,7 @@ NULL
 .onAttach = function(libname,pkgname){
   ## sometimes they take this down and change it...
   if(is.null(getOption("geonamesHost"))){
-    options(geonamesHost="ws.geonames.org")
+    options(geonamesHost="api.geonames.org")
   }
   if(is.null(getOption("geonamesUsername"))){
     packageStartupMessage("No geonamesUsername set. See http://geonames.wordpress.com/2010/03/16/ddos-part-ii/ and set one with options(geonamesUsername=\"foo\") for some services to work")
