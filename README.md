@@ -10,7 +10,7 @@ Install from here using `devtools`:
  * `install.packages("devtools")` -- if you don't have devtools yet
  * `require(devtools)`
  * `install.packages("rjson")` -- gets this dependency from CRAN
- * `install_github("geonames","barryrowlingson")`
+ * `install_github("ropensci/geonames")`
 
 A version of this will be pushed to CRAN.
 
