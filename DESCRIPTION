@@ -15,3 +15,4 @@ Description: The web service at www.geonames.org provides a number of spatial da
 License: GPL-3
 LazyLoad: yes
 BugReports: https://github.com/ropensci/geonames/issues
+RoxygenNote: 6.0.1

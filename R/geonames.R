@@ -32,13 +32,10 @@
 #' @name geonames
 NULL
 
-.onAttach = function(libname,pkgname){
+.onLoad = function(libname,pkgname){
   ## sometimes they take this down and change it...
   if(is.null(getOption("geonamesHost"))){
     options(geonamesHost="api.geonames.org")
-  }
-  if(is.null(getOption("geonamesUsername"))){
-    packageStartupMessage("No geonamesUsername set. See http://geonames.wordpress.com/2010/03/16/ddos-part-ii/ and set one with options(geonamesUsername=\"foo\") for some services to work")
   }
 }
 
@@ -53,10 +50,13 @@ getJson=function(name,plist){
   url=paste("http://",options()$geonamesHost,"/",name,"?",sep="")
   if(!is.null(options()$geonamesUsername)){
     plist[["username"]]=options()$geonamesUsername
+  }else{
+      warning("No geonamesUsername set. See http://geonames.wordpress.com/2010/03/16/ddos-part-ii/ and set one with options(geonamesUsername=\"foo\") for some services to work")
   }
+    
   olist = list()
   for(p in 1:length(plist)){
-    olist[[p]]=paste(names(plist)[p],"=",URLencode(as.character(plist[[p]]),reserved=TRUE),sep="")
+    olist[[p]]=paste(names(plist)[p],"=",utils::URLencode(as.character(plist[[p]]),reserved=TRUE),sep="")
   }
   pstring=paste(unlist(olist),collapse="&")
   url=paste(url,pstring,sep='')  
