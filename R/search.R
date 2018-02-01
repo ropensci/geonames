@@ -12,6 +12,12 @@
 ##' @title search geonames
 ##' @param ... search parameters
 ##' @return matched records
+##' @examples
+##' \dontrun{
+##' # Find places called Lancaster and 'geocode' the result
+##' (lanc_df <- GNsearch(name = "Lancaster", country = "UK"))
+##' lanc_coords <- lanc_df[1, c("lng", "lat")]
+##' }
 ##' @export
 ##' @author Barry Rowlingson
 GNsearch=function(...){
