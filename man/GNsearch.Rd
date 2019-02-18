@@ -20,6 +20,13 @@ general search call
 
 API doc for GNsearch is at \url{http://www.geonames.org/export/geonames-search.html}
 }
+\examples{
+\dontrun{
+# Find places called Lancaster and 'geocode' the result
+(lanc_df <- GNsearch(name = "Lancaster", country = "UK"))
+lanc_coords <- lanc_df[1, c("lng", "lat")]
+}
+}
 \author{
 Barry Rowlingson
 }

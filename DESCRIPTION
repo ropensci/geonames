@@ -1,8 +1,8 @@
 Package: geonames
 Type: Package
-Title: Interface To www.geonames.org Spatial Query Web Service
-Version: 0.998.9000
-Date: 2011-24-11
+Title: Interface To Geonames Spatial Query Web Service
+Version: 0.9
+Date: 2019-02-17
 Author: Barry Rowlingson
 Maintainer: Barry Rowlingson <b.rowlingson@gmail.com>
 Depends:
@@ -15,4 +15,4 @@ Description: The web service at www.geonames.org provides a number of spatial da
 License: GPL-3
 LazyLoad: yes
 BugReports: https://github.com/ropensci/geonames/issues
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0

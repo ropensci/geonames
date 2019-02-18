@@ -4,7 +4,8 @@
 \alias{GNcountrySubdivision}
 \title{country code and subdivision}
 \usage{
-GNcountrySubdivision(lat, lng, lang = "en", radius = "", maxRows = 10)
+GNcountrySubdivision(lat, lng, lang = "en", radius = "",
+  maxRows = 10)
 }
 \arguments{
 \item{lat}{latitude}
