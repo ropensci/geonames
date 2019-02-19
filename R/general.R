@@ -48,7 +48,7 @@ GNcountryInfo=function(country="",lang=""){
 ##' @param north north bound
 ##' @param east east bound
 ##' @param south south bound
-##' @param west west bount
+##' @param west west bound
 ##' @param lang language code
 ##' @param maxRows max number of records to return
 ##' @return city records
@@ -67,7 +67,7 @@ GNcities=function(north,east,south,west,lang="en",maxRows=10){
 ##' @title timezone for location
 ##' @param lat latitude
 ##' @param lng longitude
-##' @param radius sesarch radius
+##' @param radius search radius
 ##' @return time zone record
 ##' @author Barry Rowlingson
 ##' @export
