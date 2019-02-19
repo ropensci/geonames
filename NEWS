@@ -1,0 +1,9 @@
+geonames 0.999 (2019-02-17)
+=============================
+
+### CHANGES
+
+ * Geonames changed their service endpoint host name (#16)
+
+ * Set hostname on load instead of attach (#15)
+
