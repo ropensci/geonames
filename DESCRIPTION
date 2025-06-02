@@ -4,8 +4,8 @@ Type: Package
 Title: Interface to the "Geonames" Spatial Query Web Service
 Version: 0.999
 Date: 2019-02-17
-Author: Barry Rowlingson
-Maintainer: Barry Rowlingson <b.rowlingson@gmail.com>
+Authors@R: person("Barry", "Rowlingson", , "b.rowlingson@gmail.com", role = c("aut", "cre"),
+  comment = c(ORCID = "0000-0002-8586-6625"))
 Depends:
     R (>= 2.2.0)
 Imports:
